@@ -21,6 +21,7 @@
 		8F6A53E41992F31B0081B383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6A53C61992F31B0081B383 /* UIKit.framework */; };
 		8F6A53EC1992F31B0081B383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F6A53EA1992F31B0081B383 /* InfoPlist.strings */; };
 		8F6A53EE1992F31B0081B383 /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A53ED1992F31B0081B383 /* Passing_Data_Challenge_SolutionTests.m */; };
+		8F6A53F91992F3CD0081B383 /* ITIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6A53F81992F3CD0081B383 /* ITIDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		8F6A53E91992F31B0081B383 /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		8F6A53EB1992F31B0081B383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8F6A53ED1992F31B0081B383 /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		8F6A53F71992F3CD0081B383 /* ITIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITIDetailViewController.h; sourceTree = "<group>"; };
+		8F6A53F81992F3CD0081B383 /* ITIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITIDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				8F6A53D11992F31B0081B383 /* ITIAppDelegate.h */,
 				8F6A53D21992F31B0081B383 /* ITIAppDelegate.m */,
 				8F6A53D41992F31B0081B383 /* Main.storyboard */,
+				8F6A53F71992F3CD0081B383 /* ITIDetailViewController.h */,
+				8F6A53F81992F3CD0081B383 /* ITIDetailViewController.m */,
 				8F6A53D71992F31B0081B383 /* ITIViewController.h */,
 				8F6A53D81992F31B0081B383 /* ITIViewController.m */,
 				8F6A53DA1992F31B0081B383 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F6A53F91992F3CD0081B383 /* ITIDetailViewController.m in Sources */,
 				8F6A53CF1992F31B0081B383 /* main.m in Sources */,
 				8F6A53D91992F31B0081B383 /* ITIViewController.m in Sources */,
 				8F6A53D31992F31B0081B383 /* ITIAppDelegate.m in Sources */,

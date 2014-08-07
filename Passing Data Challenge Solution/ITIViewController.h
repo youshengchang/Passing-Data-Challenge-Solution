@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ITIViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *sendMessage;
+- (IBAction)buttonPressed:(UIButton *)sender;
 
 @end
