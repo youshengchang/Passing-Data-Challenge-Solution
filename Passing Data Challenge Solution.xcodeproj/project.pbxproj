@@ -463,6 +463,7 @@
 				8F6A53F31992F31B0081B383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F6A53F41992F31B0081B383 /* Build configuration list for PBXNativeTarget "Passing Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +472,7 @@
 				8F6A53F61992F31B0081B383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ITIDetailViewController.h"
 
-@interface ITIViewController : UIViewController
+@interface ITIViewController : UIViewController <ITIDetailViewControllerDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *sendMessage;
 - (IBAction)buttonPressed:(UIButton *)sender;
 

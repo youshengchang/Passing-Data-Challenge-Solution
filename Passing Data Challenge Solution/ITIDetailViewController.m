@@ -29,6 +29,7 @@
     // Do any additional setup after loading the view.
     NSLog(@"get: %@", self.msgString);
     self.message.text = self.msgString;
+    self.messageTextField.delegate = self;
     
 }
 
@@ -49,4 +50,20 @@
 }
 */
 
+- (IBAction)updateButtonPressed:(UIButton *)sender {
+    [self.messageTextField resignFirstResponder];
+    self.message.text = self.messageTextField.text;
+    [self.delegate didUpdateText: self.messageTextField.text];
+    
+    
+}
+-(BOOL)textFieldShouldReturn: (UITextField *)textField
+{
+    NSLog(@"textFieldShouldReturn tapped.");
+    [textField resignFirstResponder];
+    self.message.text = textField.text;
+    [self.delegate didUpdateText:textField.text];
+    
+    return YES;
+}
 @end

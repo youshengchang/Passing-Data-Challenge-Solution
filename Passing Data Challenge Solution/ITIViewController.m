@@ -39,6 +39,7 @@
             ITIDetailViewController *nextViewController = segue.destinationViewController;
             
             nextViewController.msgString = self.sendMessage.text;
+            nextViewController.delegate = self;
 
         }
     }
@@ -51,6 +52,14 @@
 }
 
 - (IBAction)buttonPressed:(UIButton *)sender {
-    [self resignFirstResponder];
+    [self.sendMessage resignFirstResponder];
+}
+
+-(void)didUpdateText:(NSString *)text
+{
+    NSLog(@"from detail text: %@",text);
+    self.sendMessage.text = text;
+   // [self dismissViewControllerAnimated:YES completion:nil];
+    
 }
 @end
