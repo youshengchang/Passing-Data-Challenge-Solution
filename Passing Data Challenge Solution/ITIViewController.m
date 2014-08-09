@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.sendMessage.delegate = self;
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
@@ -61,5 +62,12 @@
     self.sendMessage.text = text;
    // [self dismissViewControllerAnimated:YES completion:nil];
     
+}
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [self.sendMessage resignFirstResponder];
+    
+    return YES;
 }
 @end
